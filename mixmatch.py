@@ -6,7 +6,7 @@ class Colors(enum.Enum):
   blue = enum.auto()
   green = enum.auto()
   orange = enum.auto()
-  purple = enum.auto(),
+  purple = enum.auto()
   empty = enum.auto()
   
 red_transitions = {
