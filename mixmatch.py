@@ -14,19 +14,22 @@ class Colors(enum.Enum):
 red_transitions = {
     Colors.red: Colors.red,
     Colors.yellow: Colors.orange,
-    Colors.blue: Colors.purple
+    Colors.blue: Colors.purple,
+    Colors.empty: Colors.red
 }
 
 yellow_transitions = {
     Colors.red: Colors.orange,
     Colors.yellow: Colors.yellow,
-    Colors.blue: Colors.green
+    Colors.blue: Colors.green,
+    Colors.empty: Colors.yellow
 }
 
 blue_transitions = {
     Colors.red: Colors.purple,
     Colors.yellow: Colors.green,
-    Colors.blue: Colors.blue
+    Colors.blue: Colors.blue,
+    Colors.empty: Colors.blue
 }
 
 
